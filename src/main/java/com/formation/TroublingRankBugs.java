@@ -10,7 +10,7 @@ public class TroublingRankBugs {
 	 */
 	private void emptySynchronized() {
 		synchronized (this) {
-			// Forgot implementation
+			System.out.println("bloc non vide");
 		}
 	}
 
